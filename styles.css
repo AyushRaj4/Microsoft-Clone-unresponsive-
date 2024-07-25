@@ -1,0 +1,614 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    /* background: gray; */
+}
+
+nav ul {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 0.82em;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+#navdiv1 {
+    width: 41%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 5em;
+}
+
+img {
+    width: 17%;
+    height: 41%;
+    /* margin-top: 0.7em; */
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+select {
+    border: none;
+    font-weight: 100;
+}
+
+li button {
+    background: none;
+    border: none;
+    position: relative;
+    bottom: 0.4em;
+}
+
+#navdiv2 {
+    width: 32%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 0.65em;
+    margin-right: 1em;
+}
+
+#user {
+    border: 1px solid black;
+    border-radius: 5em;
+    padding: 0.5em;
+    margin-left: 0.8em;
+}
+
+main {
+    width: 100%;
+    height: 480px;
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Pro-AI-11Ed-Sapphire-MC001-3000x1682:VP5-1920x600);
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+#main-div {
+    width: 38%;
+    height: 68%;
+    background-color: white;
+    margin-left: 4.7em;
+    margin-bottom: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: flex-start; */
+}
+
+h3 {
+    width: 6%;
+    text-align: center;
+    background-color: #ffb900;
+}
+
+h1, h3, div div, #main-div button {
+    /* margin: 0 2em; */
+    margin: 0 3rem;
+}
+
+#main-div button {
+    width: 19%;
+    background: #0067b8;
+    border: none;
+    color: white;
+    padding: 0.65em 0.5em;
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: 0.12em;
+}
+
+#main-div h1 {
+    margin-top: 0.7rem;
+    margin-bottom: 1rem;
+    font-size: 2.7em;
+    font-weight: 500;
+}
+
+#main-div h3 {
+    padding: 0.2em 0.7em;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+#main-div div {
+    margin-bottom: 1.7em;
+    margin-top: 0.3em;
+}
+
+#sec1 {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.7em;
+}
+
+#sec1-div1 {
+    width: 15%;
+}
+
+#sec1-div2 {
+    justify-content: center;
+}
+
+.sec1-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+#play, #left, #right {
+    font-size: 1.3em;
+}
+
+#circle1, #circle2 {
+    font-size: 0.7em;
+    position: relative;
+    top: 4px;
+}
+
+figure {
+    margin: 0;
+}
+
+.right-margin {
+    margin-right: 3em;
+}
+
+#windows1, #windows2 {
+    width: 5em;
+}
+
+#xbox, #surface {
+    width: 4em;
+}
+
+#windows1 {
+    position: relative;
+    left: 4em;
+}
+
+#xbox {
+    position: relative;
+    left: 0.5em;
+}
+
+#windows2 {
+    position: relative;
+    left: 1.1em;
+}
+
+#surface {
+    position: relative;
+    left: 3.2em;
+}
+
+#sec1 a {
+    color: #345fbb;
+    font-weight: 500;
+}
+
+#sec2, #sec4 {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sec2 > div, #sec4 > div {
+    width: 21.5%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 1.5em;
+    box-shadow: 0px 3px 5px rgb(213, 212, 212);
+}
+
+#sec2 div img {
+    width: 100%;
+    height: 35%;
+}
+
+#sec2-div1 {
+    margin-left: 1.9em;
+}
+
+.large-text {
+    font-size: 1.7em;
+    font-weight: 500;
+}
+
+#sec2-div1 div, #sec2-div2 div {
+    margin-top: 0.8em;
+    margin-bottom: 0.6em;
+    margin-left: 1.65rem;
+    margin-right: 1.65rem;
+}
+
+#sec2-div1 div + div {
+    margin-top: 0;
+    margin-bottom: 3.5em;
+}
+
+#sec2-div2 div, #sec2-div2 a {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+#sec2-div2 div + div {
+    margin-top: 0;
+    margin-bottom: 1.2em;
+}
+
+.buy-btn {
+    width: 65%;
+    background: #0067b8;
+    border: none;
+    color: white;
+    padding: 0.65em 0;
+    font-size: 1em;
+    font-weight: 500;
+    border-radius: 0.12em;
+    margin-left: 1.65rem;
+    margin-right: 1.65rem;
+}
+
+#sec2-div2 button {
+    width: 43%;
+    margin-bottom: 1em;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+#sec2-div2 a {
+    color: #345fbb;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+#sec2-div2 span {
+    margin-right: 0.5em;
+}
+
+#sec2-div2 i {
+    font-size: 1em;
+}
+
+#sec2-div3 div {
+    margin-top: 0.8em;
+    margin-bottom: 0.6em;
+    margin-left: 1.65rem;
+    margin-right: 1.65rem;
+}
+
+#sec2-div3 div + div {
+    margin-top: 0;
+    margin-bottom: 10.9em;
+}
+
+#sec2-div3 button {
+    width: 52%;
+}
+
+#sec2-div4 div {
+    margin-top: 0.8em;
+    margin-bottom: 0.6em;
+    margin-left: 1.65rem;
+    margin-right: 1.65rem;
+}
+
+#sec2-div4 div + div {
+    margin-top: 0;
+    margin-bottom: 9.5em;
+}
+
+#sec2-div4 button {
+    width: 52%;
+}
+
+#sec3 {
+    width: 90.8%;
+    height: 520px;
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Slim-Multi-Canvas-AEM-Game-Pass-Ultimate:VP5-1596x600);
+    background-position: center;
+    margin: 3.3em 0;
+    margin-left: 4.68em;
+    margin-bottom: 6em;
+    display: flex;
+    align-items: center;
+}
+
+#sec3 > div {
+    width: 40%;
+    height: 70%;
+    margin-left: 4em;
+    margin-bottom: 1em;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#sec3 h1 {
+    font-size: 2.3em;
+    font-weight: 500;
+    margin-right: 3em;
+}
+
+#sec3 div div {
+    margin-top: 1.5em;
+}
+
+#sec3 div button {
+    margin-top: 1.7em;
+}
+
+#sec3 button {
+    width: 17%;
+    background: #0067b8;
+    border: none;
+    color: white;
+    padding: 0.65em 0;
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: 0.12em;
+    margin-left: 3em;
+}
+
+#sec4 {
+    width: 100%;
+    height: 510px;
+    margin-bottom: 7em;
+}
+
+#sec4 > div {
+    height: 100%;
+}
+
+#sec3 + h1 {
+    margin: 0.5em 1.8em;
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+#sec4-div1 {
+    margin-left: 1.9em;
+}
+
+#sec4 h3 {
+    width: 18%;
+    font-weight: 500;
+    font-size: 1.05em;
+    padding: 0.15em 0.1em;
+    margin-left: 1.5rem;
+}
+
+#sec4 img {
+    width: 100%;
+    height: 35%;
+}
+
+#sec4 div div, #sec4 button {
+    margin-left: 1.5rem;
+}
+
+/* #sec4 button {
+    position: sticky;
+    bottom: 3em;
+} */
+
+#sec4-div1 img {
+    margin-bottom: 3.2em;
+}
+
+#sec4-div1 div {
+    margin-bottom: 0.7em;
+}
+
+#sec4-div1 div + div {
+    margin-bottom: 7.2em;
+}
+
+#sec4-div1 button {
+    width: 31%;
+}
+
+#sec4-div2 img {
+    margin-bottom: 3.2em;
+}
+
+#sec4-div2 div {
+    margin-bottom: 0.7em;
+}
+
+#sec4-div2 div + div {
+    margin-bottom: 4.9em;
+}
+
+#sec4-div2 button {
+    width: 41%;
+}
+
+#sec4-div3 img {
+    margin-bottom: 3.2em;
+}
+
+#sec4-div3 div {
+    margin-bottom: 0.7em;
+}
+
+#sec4-div3 div + div {
+    margin-bottom: 2.7em;
+}
+
+#sec4-div3 button {
+    width: 78%;
+    text-align: left;
+    padding: 0.6em 1em;
+}
+
+#sec4-div4 img {
+    margin-bottom: 1em;
+}
+
+#sec4-div4 h3 {
+    margin-bottom: 0.3em;
+}
+
+#sec4-div4 div {
+    margin-bottom: 0.6em;
+}
+
+#sec4-div4 div + div {
+    margin-bottom: 4em;
+}
+
+#sec4-div4 button {
+    width: 33%;
+}
+
+#sec5 {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 6rem;
+    display: flex;
+}
+
+#sec5 img {
+    width: 2.2%;
+    height: 65%;
+    margin-left: 1rem;
+    position: relative;
+    bottom: 7px;
+}
+
+#sec5 div {
+    margin-left: 5.3rem;
+}
+
+footer {
+    width: 100%;
+    height: 388px;
+    background-color: rgb(244, 244, 244);
+    display: flex;
+    flex-direction: column;
+}
+
+footer section {
+    width: 82.2%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4.7rem;
+    margin-top: 1.7em;
+}
+
+footer ul {
+    line-height: 1.88rem;
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    list-style-type: none;
+    font-size: 1em;
+    color: rgb(110, 108, 108);
+    font-weight: 500;
+}
+
+footer a {
+    color: rgb(77, 75, 75);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 0.7em;
+}
+
+footer a:hover {
+    text-decoration: black solid underline;
+}
+
+#foot-nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#fn-ul1, #fn-ul2 {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1em;
+    margin-bottom: 0.5em;
+}
+
+#fn-ul1 {
+    width: 30%;
+    margin-left: 2.18rem;
+}
+
+#fn-ul2 {
+    width: 38.5%;
+    margin-right: 4.5rem;
+}
+
+#fn-ul1 i {
+    font-size: 1.9em;
+    margin-right: 0.5em;
+    position: relative;
+    top: 5px;
+}
+
+footer + button {
+    position: sticky;
+    bottom: 448px;
+    left: 1364px;
+    background: rgb(221, 219, 219);
+    border: none;
+    font-weight: 500;
+    font-size: 0.97em;
+    padding: 0.7em 1.3em;
+}
+
+footer + button a {
+    margin-left: 0.7em;
+    margin-right: 0.2em;
+    margin-top: 0.2em;
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    transition: 0.1s;
+}
+
+main button:hover, section button:hover {
+    background-color: #015493;
+}
+
+#main-div button:hover {
+    background-color: #015493;
+}
